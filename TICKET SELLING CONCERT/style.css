@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header {
+    background-image: url(/img/bg/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    height: 690px;
+    opacity: 90%;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav li a:hover {
+    color: #d6c700;
+    text-decoration: underline;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: white;
+    padding-top: 75px ;
+    padding-bottom: 5px;
+    margin: 0;
+
+}
+
+header p {
+    color: white;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding: 12px 24px;
+    font: 600 16px/1 'Montserrat', sans-serif;
+    color: #000000;
+    background: #d6c700;
+    border: none;
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 6px 14px rgba(255, 71, 87, 0.3);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    margin-top: 0px;
+}
+
+#lineup h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#lineup h3 {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#lineup p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#day {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#day img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+#night {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#night img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container h2 {
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+}
+
+
+.items {
+    display: flex;
+    flex-direction: column; /* stack tickets vertically */
+    gap: 20px;
+}
+
+.ticket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* spread img | text | button */
+    gap: 20px;
+    padding: 15px;
+    background: violet; /* dark background */
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ticket img {
+    width: 50%;
+    height: 50%;   /* adjust image size */
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1; /* take available space */
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.info p {
+    margin-top: 5px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.buy-btn {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    font-weight: bold;  
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+}
+
+.buy-btn:hover {
+    background: #ddd;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+}
+
+.contact h3 {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact h4 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+.contact p {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+        padding: 10px;
+
+}
+
+footer {
+    padding: 10px;
+    background-color: violet;
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+}
